@@ -20,7 +20,7 @@ A real-time, full-stack freelance marketplace built for performance and reliabil
 ![](screenshots/gigs.png)
 
 ### Bid
-![](screenshots/big.png)
+![](screenshots/bid.png)
 
 ### Profile
 ![](screenshots/profile.png)
