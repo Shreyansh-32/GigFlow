@@ -22,8 +22,8 @@ const generateToken = (res, userId) => {
     });
     res.cookie('jwt', token, {
         httpOnly: true,
-        sameSite: process.env.NODE_ENV === "production" ? "none" : "strict",
-        secure: process.env.NODE_ENV === "production",
+        sameSite: 'none',
+        secure: true,
         maxAge: 30 * 24 * 60 * 60 * 1000,
     });
 };
