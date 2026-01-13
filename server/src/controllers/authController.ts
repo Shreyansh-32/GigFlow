@@ -8,13 +8,13 @@ const generateToken = (res: Response, userId: any) => {
     expiresIn: '30d',
   });
 
-  res.cookie('jwt', token, {
-    httpOnly: false,
-  secure: false,
-  sameSite: "lax",
-    path: "/",  
-    maxAge: 30 * 24 * 60 * 60 * 1000,
-  });
+  res.cookie("jwt", token, {
+  httpOnly: true,
+  secure: true,
+  sameSite: "none",
+  path: "/",
+  maxAge: 30 * 24 * 60 * 60 * 1000,
+});
 };
 
 export const registerUser = async (req: Request, res: Response) => {
