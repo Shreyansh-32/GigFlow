@@ -17,6 +17,7 @@ const hiringRoutes_1 = __importDefault(require("./routes/hiringRoutes"));
 (0, db_1.default)();
 const app = (0, express_1.default)();
 const PORT = process.env.PORT || 8000;
+app.set('trust proxy', 1);
 app.use(express_1.default.json());
 app.use((0, cookie_parser_1.default)());
 app.use((0, cors_1.default)({
