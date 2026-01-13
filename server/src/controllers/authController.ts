@@ -12,6 +12,7 @@ const generateToken = (res: Response, userId: any) => {
     httpOnly: true,
     sameSite: 'none',
     secure: true,
+    path: "/",  
     maxAge: 30 * 24 * 60 * 60 * 1000,
   });
 };
