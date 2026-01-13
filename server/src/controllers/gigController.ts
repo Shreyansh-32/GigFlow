@@ -6,6 +6,7 @@ interface AuthRequest extends Request {
 }
 
 export const getAllGigs = async (req: Request, res: Response) => {
+  console.log("Cookies:", req.cookies);
   try {
     const searchQuery = typeof req.query.search === 'string' ? req.query.search : '';
 
