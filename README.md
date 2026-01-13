@@ -11,25 +11,22 @@ A real-time, full-stack freelance marketplace built for performance and reliabil
 ## 🖼️ Screenshots
 
 ### Landing
-![Dashboard](screenshots/landing.png)
-
-### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![](screenshots/landing.png)
 
 ### Real-Time Hire Notification
-![Real-Time Notification](screenshots/notification.png)
+![](screenshots/notification.png)
 
 ### Available Gigs
-![Real-Time Notification](screenshots/gigs.png)
+![](screenshots/gigs.png)
 
 ### Bid
-![Real-Time Notification](screenshots/big.png)
+![](screenshots/big.png)
 
 ### Profile
-![Real-Time Notification](screenshots/profile.png)
+![](screenshots/profile.png)
 
 ### Hiring
-![Real-Time Notification](screenshots/hire.png)
+![](screenshots/hire.png)
 
 ---
 
